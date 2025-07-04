@@ -33,10 +33,10 @@ const DashboardPreview = () => {
           }`}
         >
           <h2 className="text-3xl md:text-4xl font-medium tracking-tighter">
-            Intuitive task management interface
+            AI Agent Marketplace
           </h2>
           <p className="text-cosmic-muted text-lg">
-            A powerful dashboard that adapts to how your team works
+            Discover and deploy specialized AI agents for every task
           </p>
         </div>
         

@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import Logo from './Logo';
@@ -26,9 +25,13 @@ const Header = () => {
   const handleNavClick = (page: string) => (e: React.MouseEvent) => {
     e.preventDefault();
     setActivePage(page);
+    console.log('Looking for element with id:', page); // Debug log
     const element = document.getElementById(page);
+    console.log('Found element:', element); // Debug log
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      console.warn(`Element with id "${page}" not found`);
     }
     setMobileMenuOpen(false);
   };
@@ -78,7 +81,7 @@ const Header = () => {
                 )}
                 onClick={handleNavClick('dashboard')}
               >
-                <LayoutDashboard size={16} className="inline-block mr-1.5" /> Dashboard
+                <LayoutDashboard size={16} className="inline-block mr-1.5" /> Agents
               </ToggleGroupItem>
               <ToggleGroupItem 
                 value="pricing" 
@@ -114,7 +117,7 @@ const Header = () => {
                 }`}
                 onClick={handleNavClick('dashboard')}
               >
-                <LayoutDashboard size={16} className="inline-block mr-1.5" /> Dashboard
+                <LayoutDashboard size={16} className="inline-block mr-1.5" /> Agents
               </a>
               <a 
                 href="#pricing" 
