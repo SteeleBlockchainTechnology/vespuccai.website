@@ -9,8 +9,9 @@ const Pricing = () => {
       price: "Free",
       description: "Perfect for individuals discovering AI agents for personal use",
       features: [
-        "Up to 100 prompts/month",
-        "Access to basic AI agents",
+        "Standard AI models",
+        "Limited prompts per month",
+        "Customizable AI agents",
         "Standard response time",
         "Community support",
         "Open-source access"
@@ -20,20 +21,19 @@ const Pricing = () => {
       popular: false
     },
     {
-      name: "Professional",
+      name: "Premium",
       price: "$0.0008",
       period: "per prompt",
       description: "Ideal for businesses and developers with regular AI needs",
       features: [
         "Unlimited prompts",
-        "Access to all AI agents",
+        "Access to Proprietary AI agents",
         "Priority processing",
-        "Blockchain transparency",
         "Advanced analytics",
         "API access",
         "Developer support"
       ],
-      buttonText: "Start Building",
+      buttonText: "Coming Soon",
       buttonVariant: "default",
       popular: true
     },
@@ -42,15 +42,15 @@ const Pricing = () => {
       price: "Custom",
       description: "For organizations needing specialized AI solutions and support",
       features: [
-        "Custom AI agent development",
-        "Dedicated blockchain node",
         "White-label solutions",
         "SLA guarantees",
-        "Custom integrations",
-        "Dedicated account manager",
+        "Custom AI integrations",
+        "Priority processing",
+        "Advanced analytics",
+        "API access",
         "24/7 premium support"
       ],
-      buttonText: "Contact Sales",
+      buttonText: "Coming Soon",
       buttonVariant: "outline",
       popular: false
     }

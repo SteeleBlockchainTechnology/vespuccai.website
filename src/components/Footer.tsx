@@ -42,7 +42,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-medium text-lg text-foreground">Platform</h4>
             <ul className="space-y-3">
-              <li><a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">AI Agents</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">AI Agents</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Marketplace</a></li>
               <li><a href="#pricing" className="text-muted-foreground hover:text-foreground transition-colors">Pricing</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Tokenomics</a></li>
@@ -53,22 +53,22 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-medium text-lg text-foreground">Technology</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Blockchain</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Open Source</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">MCP Protocol</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">LangChain</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Node-RED</a></li>
+              <li><a href="https://solana.com/" className="text-muted-foreground hover:text-foreground transition-colors">Solana</a></li>
+              <li><a href="https://nodered.org/" className="text-muted-foreground hover:text-foreground transition-colors">Node-RED</a></li>
+              <li><a href="https://modelcontextprotocol.io/introduction" className="text-muted-foreground hover:text-foreground transition-colors">MCP Protocol</a></li>
+              <li><a href="https://www.langchain.com/" className="text-muted-foreground hover:text-foreground transition-colors">LangChain</a></li>
+              <li><a href="https://www.librechat.ai/" className="text-muted-foreground hover:text-foreground transition-colors">Open Source</a></li>
             </ul>
           </div>
           
           <div className="space-y-4">
             <h4 className="font-medium text-lg text-foreground">Resources</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Documentation</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Developer Hub</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Tutorials</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">API Reference</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Community</a></li>
+              <li><a href="nb" className="text-muted-foreground hover:text-foreground transition-colors">Documentation</a></li>
+              <li><a href="nb" className="text-muted-foreground hover:text-foreground transition-colors">Developer Hub</a></li>
+              <li><a href="nb" className="text-muted-foreground hover:text-foreground transition-colors">Tutorials</a></li>
+              <li><a href="nb" className="text-muted-foreground hover:text-foreground transition-colors">API Reference</a></li>
+              <li><a href="-" className="text-muted-foreground hover:text-foreground transition-colors">Community</a></li>
             </ul>
           </div>
         </div>

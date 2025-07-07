@@ -14,8 +14,17 @@ export default {
 			center: true,
 			padding: '2rem',
 			screens: {
-				'2xl': '1400px'
+				'2xl': '1400px',
+				'custom': '868px', // This is for container width only
 			}
+		},
+		screens: {
+			'sm': '640px',
+			'md': '768px',
+			'custom': '928px', // <-- THIS enables custom: prefix
+			'lg': '1024px',
+			'xl': '1280px',
+			'2xl': '1536px',
 		},
 		extend: {
 			colors: {

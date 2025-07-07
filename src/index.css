@@ -219,6 +219,9 @@
     @apply bg-accent/20 transition-all duration-300;
   }
 
+  .bg-background-header {
+    @apply bg-background/10 backdrop-blur-sm sticky top-0 z-50 pt-0 px-4;
+  }
   /* Animation utilities - improved for cleaner transitions */
   @keyframes fade-in {
     0% {
@@ -294,7 +297,7 @@
     will-change: transform;
     backface-visibility: hidden;
   }
-  
+
   .hover-scale:hover {
     transform: scale(1.05);
   }
@@ -304,7 +307,7 @@
     will-change: transform, box-shadow;
     backface-visibility: hidden;
   }
-  
+
   .hover-lift:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
