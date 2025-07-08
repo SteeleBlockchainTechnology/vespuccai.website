@@ -52,8 +52,8 @@ const HeroSection = () => {
           </span>
         </div>
         
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-medium tracking-tighter text-balance text-foreground">
-          Democratizing AI with <span className="text-primary">blockchain</span> technology
+        <h1 className="text-4xl custom:text-6xl lg:text-7xl font-medium tracking-tighter text-balance text-foreground">
+          Democratizing <span className="text-muted-foreground">Intelligence</span> with <span className="text-muted-foreground">Blockchain</span> Technology
         </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto text-balance">
@@ -61,9 +61,14 @@ const HeroSection = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6 items-center">
-          <Button className="bg-primary text-primary-foreground hover:bg-primary/80 hover:text-primary-foreground text-base h-12 px-8 transition-all duration-200 min-h-[48px]">
-            Test Our Beta
-          </Button>
+            <Button
+            asChild
+            className="bg-primary text-primary-foreground hover:bg-primary/80 hover:text-primary-foreground text-base h-12 px-8 transition-all duration-200 min-h-[48px]"
+            >
+            <a href="https://your-destination-url.com" target="_blank" rel="noopener noreferrer">
+              Test Our Beta
+            </a>
+            </Button>
           <Button
             variant="outline"
             className="border-border text-foreground hover:bg-accent hover:text-accent-foreground text-base h-12 px-8 transition-all duration-200 min-h-[48px]"

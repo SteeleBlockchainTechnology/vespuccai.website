@@ -42,11 +42,10 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-medium text-lg text-foreground">Platform</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">AI Agents</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Marketplace</a></li>
+              <li><a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">Features</a></li>
               <li><a href="#pricing" className="text-muted-foreground hover:text-foreground transition-colors">Pricing</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Tokenomics</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Roadmap</a></li>
+              <li><a href="-" className="text-muted-foreground hover:text-foreground transition-colors">Tokenomics</a></li>
+              <li><a href="-" className="text-muted-foreground hover:text-foreground transition-colors">Roadmap</a></li>
             </ul>
           </div>
           
@@ -64,10 +63,10 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-medium text-lg text-foreground">Resources</h4>
             <ul className="space-y-3">
-              <li><a href="nb" className="text-muted-foreground hover:text-foreground transition-colors">Documentation</a></li>
-              <li><a href="nb" className="text-muted-foreground hover:text-foreground transition-colors">Developer Hub</a></li>
-              <li><a href="nb" className="text-muted-foreground hover:text-foreground transition-colors">Tutorials</a></li>
-              <li><a href="nb" className="text-muted-foreground hover:text-foreground transition-colors">API Reference</a></li>
+              <li><a href="-" className="text-muted-foreground hover:text-foreground transition-colors">Documentation</a></li>
+              <li><a href="-" className="text-muted-foreground hover:text-foreground transition-colors">Developer Hub</a></li>
+              <li><a href="-" className="text-muted-foreground hover:text-foreground transition-colors">Tutorials</a></li>
+              <li><a href="-" className="text-muted-foreground hover:text-foreground transition-colors">API Reference</a></li>
               <li><a href="-" className="text-muted-foreground hover:text-foreground transition-colors">Community</a></li>
             </ul>
           </div>
@@ -76,9 +75,9 @@ const Footer = () => {
         <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center text-muted-foreground text-sm">
           <div>© 2025 Vespucc AI. All rights reserved.</div>
           <div className="flex gap-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-foreground transition-colors">Privacy</a>
-            <a href="#" className="hover:text-foreground transition-colors">Terms</a>
-            <a href="#" className="hover:text-foreground transition-colors">Cookies</a>
+            <a href="-" className="hover:text-foreground transition-colors">Privacy</a>
+            <a href="-" className="hover:text-foreground transition-colors">Terms</a>
+            <a href="-" className="hover:text-foreground transition-colors">Cookies</a>
           </div>
         </div>
       </div>
