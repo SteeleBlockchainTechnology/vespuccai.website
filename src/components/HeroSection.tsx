@@ -65,7 +65,7 @@ const HeroSection = () => {
             asChild
             className="bg-primary text-primary-foreground hover:bg-primary/80 hover:text-primary-foreground text-base h-12 px-8 transition-all duration-200 min-h-[48px]"
             >
-            <a href="https://your-destination-url.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://chat.vespucc.ai" target="_blank" rel="noopener noreferrer">
               Test Our Beta
             </a>
             </Button>
@@ -90,11 +90,10 @@ const HeroSection = () => {
         <div className="cosmic-glow Hello relative rounded-xl overflow-hidden border border-border backdrop-blur-sm bg-card shadow-lg">
           <iframe 
             ref={iframeRef}
-            src="http://localhost:3080" 
+            src="http://chat.vespucc.ai" 
             width="100%" 
             height="50%"
             frameBorder="0"
-            
             title="Vespucci.ai Chat Interface"
             sandbox="allow-same-origin allow-scripts allow-forms allow-popups"
             className="w-full h-[60vh] rounded-xl"
