@@ -90,7 +90,7 @@ const HeroSection = () => {
         <div className="cosmic-glow Hello relative rounded-xl overflow-hidden border border-border backdrop-blur-sm bg-card shadow-lg">
           <iframe 
             ref={iframeRef}
-            src="http://chat.vespucc.ai" 
+            src="https://chat.vespucc.ai" 
             width="100%" 
             height="50%"
             frameBorder="0"

@@ -13,7 +13,7 @@ const Footer = () => {
               AI agents for everyone. No monthly fees, no barriers, just affordable AI at your fingertips.
             </p>
             <div className="flex items-center gap-4">
-              <a href="#" className="h-10 w-10 rounded-full bg-muted flex items-center justify-center text-muted-foreground hover:text-foreground transition-colors">
+              <a href="https://x.com/VespuccAI" className="h-10 w-10 rounded-full bg-muted flex items-center justify-center text-muted-foreground hover:text-foreground transition-colors">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M23 3.01s-2.018 1.192-3.14 1.53a4.48 4.48 0 00-7.86 3v1a10.66 10.66 0 01-9-4.53s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5 0-.278-.028-.556-.08-.83C21.94 5.674 23 3.01 23 3.01z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
@@ -56,7 +56,7 @@ const Footer = () => {
               <li><a href="https://nodered.org/" className="text-muted-foreground hover:text-foreground transition-colors">Node-RED</a></li>
               <li><a href="https://modelcontextprotocol.io/introduction" className="text-muted-foreground hover:text-foreground transition-colors">MCP Protocol</a></li>
               <li><a href="https://www.langchain.com/" className="text-muted-foreground hover:text-foreground transition-colors">LangChain</a></li>
-              <li><a href="https://www.librechat.ai/" className="text-muted-foreground hover:text-foreground transition-colors">Open Source</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Open_source#:~:text=Open%20source%20is%20source%20code,the%20limitations%20of%20proprietary%20code." className="text-muted-foreground hover:text-foreground transition-colors">Open Source</a></li>
             </ul>
           </div>
           
