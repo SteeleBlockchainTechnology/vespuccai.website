@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    hmr: mode === 'development' ? true : false, // Disable HMR in production
   },
   plugins: [
     react(),
