@@ -51,8 +51,8 @@ const HeroSection = () => {
             <Loader className="h-3 w-3 animate-spin text-primary" />
           </span>
         </div>
-        
-        <h1 className="text-4xl custom:text-6xl lg:text-7xl font-medium tracking-tighter text-balance text-foreground">
+
+        <h1 className="text-2xl xxs:text-3xl xs:text-4xl sm:text-5xl custom:text-6xl lg:text-7xl font-medium tracking-tighter text-balance text-foreground">
           Democratizing <span className="text-muted-foreground">Intelligence</span> with <span className="text-muted-foreground">Blockchain</span> Technology
         </h1>
         

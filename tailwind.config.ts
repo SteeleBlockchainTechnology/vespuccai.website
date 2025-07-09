@@ -19,6 +19,8 @@ export default {
 			}
 		},
 		screens: {
+			'xxs': '412px',
+			'xs': '500px',
 			'sm': '640px',
 			'md': '768px',
 			'custom': '928px', // <-- THIS enables custom: prefix
