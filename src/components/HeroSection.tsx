@@ -52,9 +52,12 @@ const HeroSection = () => {
           </span>
         </div>
 
-        <h1 className="text-2xl xxs:text-3xl xs:text-4xl sm:text-5xl custom:text-6xl lg:text-7xl font-medium tracking-tighter text-balance text-foreground">
-          Democratizing <span className="text-muted-foreground">Intelligence</span> with <span className="text-muted-foreground">Blockchain</span> Technology
-        </h1>
+          <h1 className="hero-title font-medium tracking-tighter text-balance text-foreground mx-auto max-w-full">
+            Democratizing <span className="text-muted-foreground">Intelligence</span>
+            <br />
+            with <span className="text-muted-foreground">Blockchain</span> Technology
+          </h1>
+
         
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto text-balance">
           Discover, access, and deploy cutting-edge AI agents through our open-source platform. Built on Solana blockchain for transparent, affordable AI solutions as low as $0.0008 per prompt.

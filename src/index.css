@@ -313,3 +313,7 @@
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   }
 }
+.hero-title {
+  font-size: clamp(1.5rem, 7vw, 4.5rem); /* min, preferred, max */
+  line-height: 1.1;
+}
