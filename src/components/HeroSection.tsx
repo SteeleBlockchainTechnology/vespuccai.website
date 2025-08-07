@@ -47,7 +47,7 @@ const HeroSection = () => {
         <div className="flex justify-center">
           <span className="inline-flex items-center gap-2 px-3 py-1 text-xs font-medium rounded-full bg-muted text-primary">
             <span className="flex h-2 w-2 rounded-full bg-primary"></span>
-            Developing AI Agent Marketplace
+            Developing Repository Marketplace
             <Loader className="h-3 w-3 animate-spin text-primary" />
           </span>
         </div>
@@ -60,7 +60,7 @@ const HeroSection = () => {
 
         
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto text-balance">
-          Discover, access, and deploy cutting-edge AI agents through our open-source platform. Built on Solana blockchain for transparent, affordable AI solutions as low as $0.0008 per prompt.
+          Discover, access, and deploy cutting-edge open-source repositories through our unified platform. Built on Solana blockchain for transparent, affordable solutions
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6 items-center">

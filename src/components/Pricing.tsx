@@ -3,65 +3,65 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card';
 
 const Pricing = () => {
-  const plans = [
-    {
-      name: "Explorer",
-      price: "Free",
-      description: "Perfect for individuals discovering AI agents for personal use",
-      features: [
-        "Standard AI models",
-        "Limited prompts per month",
-        "Customizable AI agents",
-        "Standard response time",
-        "Community support",
-        "Open-source access"
-      ],
-      buttonText: "Start Exploring",
-      buttonVariant: "outline",
-      popular: false
-    },
-    {
-      name: "Premium",
-      price: "$0.0008",
-      period: "per prompt",
-      description: "Ideal for businesses and developers with regular AI needs",
-      features: [
-        "Unlimited prompts",
-        "Access to Proprietary AI agents",
-        "Priority processing",
-        "Advanced analytics",
-        "API access",
-        "Developer support"
-      ],
-      buttonText: "Coming Soon",
-      buttonVariant: "default",
-      popular: true
-    },
-    {
-      name: "Enterprise",
-      price: "Custom",
-      description: "For organizations needing specialized AI solutions and support",
-      features: [
-        "White-label solutions",
-        "SLA guarantees",
-        "Custom AI integrations",
-        "Priority processing",
-        "Advanced analytics",
-        "API access",
-        "24/7 premium support"
-      ],
-      buttonText: "Coming Soon",
-      buttonVariant: "outline",
-      popular: false
-    }
-  ];
+const plans = [
+  {
+    name: "Explorer",
+    price: "Free",
+    description: "Perfect for individuals discovering open-source repositories for personal use",
+    features: [
+      "Standard AI search",
+      "Unlimited local deployments",
+      "Customizable workflows",
+      "Standard response time",
+      "Community support",
+      "Open-source access"
+    ],
+    buttonText: "Start Exploring",
+    buttonVariant: "outline",
+    popular: false
+  },
+  {
+    name: "Premium (Staking Required)",
+    price: "0.5% fee",
+    period: "per cloud deployment",
+    description: "Ideal for businesses and developers with regular repository needs",
+    features: [
+      "Unlimited deployments",
+      "Access to Vespucci Prime AI",
+      "Priority processing",
+      "Advanced analytics",
+      "API access",
+      "Developer support"
+    ],
+    buttonText: "Stake Now",
+    buttonVariant: "default",
+    popular: true
+  },
+  {
+    name: "Enterprise",
+    price: "Custom",
+    description: "For organizations needing specialized repository solutions and support",
+    features: [
+      "White-label integrations",
+      "SLA guarantees",
+      "Custom repository curation",
+      "Priority processing",
+      "Advanced analytics",
+      "API access",
+      "24/7 premium support"
+    ],
+    buttonText: "Contact Us",
+    buttonVariant: "outline",
+    popular: false
+  }
+];
   
   return (
     <section id="pricing" className="w-full py-20 px-6 md:px-12 bg-background">
       <div className="max-w-7xl mx-auto space-y-16">
         <div className="text-center space-y-4 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-medium tracking-tighter text-foreground">
-            Revolutionary pricing for AI access
+            Revolutionary pricing for Cloud Deployments
           </h2>
           <p className="text-muted-foreground text-lg">
             No monthly fees, no subscriptions - pay only for what you use
@@ -80,7 +80,7 @@ const Pricing = () => {
             >
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1 bg-primary text-primary-foreground text-sm rounded-full font-medium">
-                  Most Popular
+                  Coming Soon
                 </div>
               )}
               

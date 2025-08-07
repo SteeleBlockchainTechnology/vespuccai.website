@@ -8,55 +8,55 @@ const Features = () => {
   
   const features = [
     {
-      title: "AI Agent Marketplace",
-      description: "Discover and deploy specialized AI agents for any use case through our unified platform.",
-      expandedDescription: "Browse through our diverse ecosystem of AI agents covering general purpose tasks, education, finance, professional services, and blockchain-specific applications. Each agent is pre-configured and ready to deploy.",
+      title: "Open-Source Repository Marketplace",
+      description: "Discover and deploy specialized open-source repositories for any use case through our unified platform.",
+      expandedDescription: "Browse through our diverse ecosystem of repositories covering general purpose tasks, education, finance, professional services, and blockchain-specific applications. Each repository is AI-curated and ready for hybrid deployment.",
       icon: (
         <Layers size={24} className="text-cosmic-accent" />
       )
     },
     {
-      title: "Pay-Per-Prompt Pricing",
-      description: "Revolutionary pricing model with costs as low as $0.0008 per prompt - no monthly subscriptions.",
-      expandedDescription: "Break free from expensive monthly fees. Our transparent, blockchain-powered pricing ensures you only pay for what you use. Perfect for individuals, startups, and enterprises looking for cost-effective AI solutions.",
+      title: "Hybrid Deployment Pricing",
+      description: " model with free local cloning and cloud fees as low as 0.5% per transaction - no monthly subscriptions.",
+      expandedDescription: "Break free from complex setups. Our transparent, blockchain-powered pricing ensures free local deployments for control and nominal token fees for cloud convenience via IPFS. Perfect for individuals, startups, and enterprises seeking efficient open-source solutions.",
       icon: (
         <Grid3x3 size={24} className="text-cosmic-accent" />
       )
     },
     {
       title: "Blockchain Integration",
-      description: "Built on Solana blockchain for transparency, security, and seamless token-based transactions.",
-      expandedDescription: "Leverage the power of blockchain technology with our native token system. All transactions are transparent, secure, and recorded on-chain. Experience the future of AI with decentralized infrastructure.",
+      description: "Built on Solana blockchain for transparency, security, and seamless token-based incentives.",
+      expandedDescription: "Leverage Solana's high throughput and low fees for features like staking, bounties (with 7% platform cut), and NFT rewards. All transactions are transparent, secure, and on-chain, enabling decentralized governance and contributor rewards.",
       icon: (
         <LayoutDashboard size={24} className="text-cosmic-accent" />
       )
     },
     {
       title: "Open Source Foundation",
-      description: "Fully open-source platform built with cutting-edge technologies like MCP, LangChain, and Node-RED.",
-      expandedDescription: "Our commitment to open-source means complete transparency and community collaboration. Built with Model Context Protocol for standardized AI agent communication, LangChain for robust AI workflows, and Node-RED for visual programming.",
+      description: "Fully open-source platform built with cutting-edge technologies like React, LangChain, and IPFS.",
+      expandedDescription: "Our commitment to open-source ensures complete transparency and community collaboration. Built with React for intuitive UIs, LangChain for AI workflows, and IPFS for decentralized cloud deployments, fostering innovation in discovery and integration.",
       icon: (
         <ListCheck size={24} className="text-cosmic-accent" />
       )
     },
     {
       title: "No Technical Barriers",
-      description: "Web-based platform accessible to users of all technical levels.",
-      expandedDescription: "Whether you're a developer or a business user, our intuitive interface makes AI accessible to everyone. No complex setups, no technical expertise required - just point, click, and deploy AI agents instantly.",
+      description: "Web-based platform accessible to users of all technical levels with AI-guided discovery.",
+      expandedDescription: "Whether you're a novice or expert, our intuitive interface and AI assistants like Vespucci Guide make open-source accessible. No complex setups required - just search, click, and deploy repositories instantly with automated dependency resolution.",
       icon: (
         <Star size={24} className="text-cosmic-accent" />
       )
     },
     {
-      title: "Diverse AI Ecosystem",
-      description: "Comprehensive suite of AI agents for text generation, image editing, code analysis, and specialized tasks.",
-      expandedDescription: "From market analysts and content creators to 3D modelers and smart contract auditors, our growing ecosystem covers every industry need. Specialized agents for education, finance, legal, medical, and blockchain applications.",
+      title: "Diverse Repository Ecosystem",
+      description: "Comprehensive suite of repositories for text generation, image editing, code analysis, and specialized tasks.",
+      expandedDescription: "From educational tools and financial optimizers to blockchain auditors and professional simulators, our growing ecosystem covers every domain. Enhanced with AI personalization and blockchain incentives for contributions across AI, finance, education, and more.",
       icon: (
         <BookOpen size={24} className="text-cosmic-accent" />
       )
     }
   ];
-  
+    
   const toggleFeature = (index: number) => {
     setOpenFeature(openFeature === index ? null : index);
   };
