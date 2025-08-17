@@ -95,7 +95,9 @@ const Features = () => {
                 <h3 className="text-xl font-medium tracking-tighter mb-3">{feature.title}</h3>
                 <p className="text-cosmic-muted">{feature.description}</p>
               </CollapsibleTrigger>
-              <CollapsibleContent className="px-6 pb-6 pt-2">
+              <CollapsibleContent
+                className="px-6 pb-6 pt-2 overflow-hidden data-[state=open]:animate-collapsible-down data-[state=closed]:animate-collapsible-up"
+              >
                 <div className="pt-3 border-t border-cosmic-light/10">
                   <p className="text-cosmic-muted">{feature.expandedDescription}</p>
                   <div className="mt-4 flex justify-end">
