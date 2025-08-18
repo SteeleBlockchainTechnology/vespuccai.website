@@ -73,11 +73,18 @@ const HeroSection = () => {
             </a>
             </Button>
           <Button
+            asChild
             variant="outline"
             className="border-border text-foreground hover:bg-accent hover:text-accent-foreground text-base h-12 px-8 transition-all duration-200 min-h-[48px]"
-            onClick={handleButtonClick('features')}
           >
-            Learn More
+            <a
+              href="/Whitepaper.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open Vespucci AI Whitepaper in a new tab"
+            >
+              Learn More
+            </a>
           </Button>
         </div>
         
