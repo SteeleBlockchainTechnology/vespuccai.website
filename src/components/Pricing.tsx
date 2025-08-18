@@ -3,6 +3,22 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card';
 
 const Pricing = () => {
+  const scrollToChat = () => {
+    const container = document.getElementById('chat-interface');
+    if (!container) return;
+    // Try to center iframe in viewport similar to header logic
+    const iframe = container.querySelector('iframe');
+    if (iframe) {
+      const rect = iframe.getBoundingClientRect();
+      const centerTarget = rect.top + window.scrollY + rect.height / 2;
+      const viewportCenter = window.innerHeight / 2;
+      window.scrollTo({ top: centerTarget - viewportCenter - 50, behavior: 'smooth' });
+      return;
+    }
+    const yOffset = -70;
+    const y = container.getBoundingClientRect().top + window.scrollY + yOffset;
+    window.scrollTo({ top: y, behavior: 'smooth' });
+  };
 const plans = [
   {
     name: "Explorer",
@@ -33,7 +49,7 @@ const plans = [
       "API access",
       "Developer support"
     ],
-    buttonText: "Stake Now",
+    buttonText: "Stake Now (Coming Soon)",
     buttonVariant: "default",
     popular: true
   },
@@ -50,7 +66,7 @@ const plans = [
       "API access",
       "24/7 premium support"
     ],
-    buttonText: "Contact Us",
+    buttonText: "In Development",
     buttonVariant: "outline",
     popular: false
   }
@@ -116,6 +132,7 @@ const plans = [
                       : "w-full border-border text-foreground hover:bg-muted"
                   }
                   variant={plan.buttonVariant as "default" | "outline"}
+                  onClick={plan.name === 'Explorer' ? scrollToChat : undefined}
                 >
                   {plan.buttonText}
                 </Button>
