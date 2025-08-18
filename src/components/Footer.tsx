@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="md:col-span-2 space-y-6">
             <Logo />
             <p className="text-muted-foreground max-w-xs">
-              AI agents for everyone. No monthly fees, no barriers, just affordable AI at your fingertips.
+              Open Source Tech for everyone. No monthly fees, no barriers, just affordable Technology at your fingertips.
             </p>
             <div className="flex items-center gap-4">
               <a href="https://x.com/VespuccAI" className="h-10 w-10 rounded-full bg-muted flex items-center justify-center text-muted-foreground hover:text-foreground transition-colors">
