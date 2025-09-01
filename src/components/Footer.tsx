@@ -44,8 +44,28 @@ const Footer = () => {
             <ul className="space-y-3">
               <li><a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">Features</a></li>
               <li><a href="#pricing" className="text-muted-foreground hover:text-foreground transition-colors">Pricing</a></li>
-              <li><a href="-" className="text-muted-foreground hover:text-foreground transition-colors">Tokenomics</a></li>
-              <li><a href="-" className="text-muted-foreground hover:text-foreground transition-colors">Roadmap</a></li>
+              <li>
+                <a
+                  href="/Whitepaper.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Vespucci AI Whitepaper (Tokenomics) in a new tab"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Tokenomics
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/Whitepaper.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Vespucci AI Whitepaper (Roadmap) in a new tab"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Roadmap
+                </a>
+              </li>
             </ul>
           </div>
           
